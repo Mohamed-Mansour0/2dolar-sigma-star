@@ -1,0 +1,565 @@
+*{margin: 0;
+padding: 0;
+}
+body{
+    width: 100%;
+    height: 3000px;
+    background-position: center center;
+    margin: 0;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+direction: rtl;
+text-align: right;
+background-color: #444;
+background-color: white;
+
+}
+
+
+#home .mynav .main{
+    color: #01b8dc;
+}
+
+#home .mynav .nav-link:hover{
+    color: #01b8dc;
+}
+
+#home .mynav .getstarted{
+padding: 15px 25px;
+margin-left: 22px;
+border-radius: 2px;
+border: 1px solid #cdd1d9;
+font-size: 12px;
+font-weight: 400;
+color: #5f687b;
+
+}
+
+
+#home .mynav .getstarted:hover{color: #fff;}
+
+
+.logo{
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    width: 700px;
+}
+.first{color:#f38300;}
+.second{color: #03b0db;}
+
+.mynav{align-items: center !important;
+font-size: 18px !important;
+padding-left: 100px !important;
+}
+
+/* nave bar done */
+#getstarted{ padding: 90px;
+align-items: center;
+}
+#getstarted h1{
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#getstarted h2{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        color: #858ea1;
+}
+
+.button{
+    padding: 10px;
+    transition: 0.5s;
+}
+.button .btn{padding: 11px 30px 10px 30px;
+border-radius: 10%;
+width: 15%;
+background: #01b8dc;
+color: #fff;
+
+}
+
+.button a:hover{ background-color: blue;
+    transform: scale(1,1);
+}
+.content-img{
+    padding-bottom: 20px;
+    animation-name: animate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes animate { 0%{
+    top: 25px;
+    }
+
+    25%{top: 5px;}
+    50%{top: 10px;}
+    75%{top: 5px;}
+    100%{
+        top: 25px;
+    }
+
+}
+
+
+
+/* get started done */
+#main{ padding: 60px 0px;}
+#main .main1{
+    background-color: #f9fdfc;
+}
+
+#main .main2{
+    background-color: #f9fdfc;
+}
+
+#main .icon{
+    color: #01b8dc;
+    font-size: 30px;
+    padding: 0px 0px 15px 0px;
+}
+
+#main p{
+    padding: 0px 0px 25px 0px;
+
+    font-size: 15px;
+    color: #5f687b;
+}
+
+#main h3{
+    font-size: 22px;
+    font-weight: 300px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#main a{
+    text-decoration: none;
+    color: #5f687b;
+}
+#main a:hover{
+    color: #01b8dc;
+}
+
+
+/* main done */
+#about{padding: 60px 0px;
+    display: block;
+
+}
+#about h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #5f687b;
+}
+/* about done */
+
+#services{
+    display: block;
+    padding: 60px 0px;
+}
+#services .title{
+align-items: center;   
+ padding: 30px 0px;
+position: relative;
+text-align: center;
+display: block;
+background-color: #f9fdfc;
+width: 100%;
+}
+
+
+.title span{
+    top: 0px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #f0f1f3;
+    position: absolute; 
+    text-align: center;
+    align-items: center;
+    left: 0px;
+    right: 0px;
+}
+
+.title h2{
+    font-weight: 700;
+    position: relative;
+    font-size: 32px;
+    color: #5f687b;
+    text-align: center;
+    padding-bottom: 15px;
+
+    
+    }
+
+    .title p{
+        position: relative;
+    }
+
+    #services .icon{
+        background-color: white;
+        align-items: stretch;
+        justify-content: space-around;
+    }
+
+    #services .icon{
+        color: #01b8dc;
+        font-size: 30px;
+        padding: 0px 0px 15px 0px;
+        padding: 15px 0px;
+
+    }
+
+    #services .d7k{
+        width: 100%;
+        background-color: #f9fdfc;
+
+    }
+    
+
+    #services a{
+        text-decoration: none;
+        color: #5f687b;
+    }
+
+    #services a:hover{
+        color:#01b8dc
+    }
+
+    #services h3{
+        font-weight: 600;
+        margin-bottom: 12px;
+        font-size: 25px;
+        background-color: white;
+
+
+    }
+
+
+    /* services done */
+
+    #clients{
+        padding: 60px 0px;
+        display: block;
+        background-color: #f9f9fa;
+    }
+
+    .client-title{
+        text-align: center;
+        align-items: center;
+        position: relative;
+        background-color: #f9fdfc;
+        padding: 30px 0px;
+        display: block;
+        width: 100%;
+
+    }
+
+    
+.client-title span{
+    top: 0px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #f0f1f3;
+    position: absolute; 
+    text-align: center;
+    align-items: center;
+    left: 0px;
+    right: 0px;
+}
+
+.client-title h2{
+    font-weight: 700;
+    position: relative;
+    font-size: 32px;
+    color: #5f687b;
+    text-align: center;
+    padding-bottom: 15px;
+
+    
+    }
+
+        /* clients done */
+
+    
+        #contact{
+            padding: 60px 0px;
+            display: block;
+        }
+
+
+
+        .contact-title{
+            text-align: center;
+            align-items: center;
+            position: relative;
+            padding: 30px 0px;
+            display: block;
+            width: 100%;
+    
+        }
+        .contact-title span{
+            top: 0px;
+            font-weight: 700;
+            font-size: 50px;
+            color: #f0f1f3;
+            position: absolute; 
+            text-align: center;
+            align-items: center;
+            left: 0px;
+            right: 0px;
+        }
+
+
+        .contact-title h2{
+            font-weight: 700;
+            position: relative;
+            font-size: 32px;
+            color: #5f687b;
+            text-align: center;
+            padding-bottom: 15px;
+        
+            
+            }
+
+
+            #contact .content{
+
+                border-top: #01b8dc 4px solid;
+                border-bottom: #01b8dc 4px solid;
+                padding: 30px;
+                background-color: #f9f9fa;
+                width: 100%;
+            }
+
+            #contact .content i{
+                float: left;
+                font-size: 20px;
+                align-items: center;
+                margin: 5px 0px;
+                color: #01b8dc;
+                background-color: white;
+                border-radius: 50px;
+                justify-content: center;
+                width: 44px;
+                height: 44px;
+                display: flex;
+                transition: all 0.1s;                
+            }
+
+            #contact .content i:hover{
+
+                background-color: #01b8dc;
+                color: white;
+            }
+
+
+
+            #contact .content h2{ 
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+                font-weight: 700;
+
+            }
+
+            #contact .content p{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                color: #949cac;
+                padding: 0px 0px 15px 0px;
+
+            }
+
+
+            #contact .form{ border-top: #01b8dc 4px solid;
+                border-bottom: #01b8dc 4px solid;
+                padding: 30px;
+                background-color: #f9f9fa;
+                width: 100%;
+
+            }
+
+
+            #contact .lulu{
+                padding-bottom: 20px;
+                flex: auto;
+                
+            }
+
+            #contact .lulu input{
+                width: 100%;
+                border: #01b8dc solid 0.1px;
+                height: 44%;
+               
+                font-weight: 400;
+                font-size: 50px;
+                padding: 10px 15px;
+            }
+
+            #contact .lulu label{
+                font-size: 18px;
+                font-weight: 200;
+            }
+
+            
+            #contact .lulu textarea{
+                display: block;
+                width: 100%;
+                border: #01b8dc solid 0.1px;
+                height: 65%;
+                font-weight: 500;
+                padding: 10px 15px;
+            }
+            
+
+            #contact .btn  {text-align: center;
+                width: 100%;
+            }
+
+            #contact .mybtn{
+                width: 20%;
+            }
+
+
+                    /* contact done */
+
+            #footer{
+                background-color: #f3f4f6;
+                color: #5f687b;
+                font-size: 20px;
+            }
+
+                #footer .footer1{
+                    text-align: center;
+                    padding: 80px 0px;
+                }
+
+                #footer .row{
+                    justify-content: center;
+                }
+
+                #footer .footer1 h2{
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: #5f687b;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+                }
+
+                #footer .links{
+                    margin-top: 15px;
+                    padding: 5px 5px 5px 5px;
+                }
+
+                #footer .links a{
+                    font-size: 22px;
+                    text-decoration: none;
+                    background: #eaecef;
+                    color: #5f687b;
+                    font-weight: 400;
+
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+                    transition: all 0.1s;
+                }
+
+                #footer .links a:hover{
+                    
+                    background-color: white;
+                    color: #01b8dc;
+                }
+                #footer .copyrights{
+                    width: 100%;
+                    float: left;
+                    margin: 2px 20px;
+                    background-color: #f3f4f6;
+                    text-align: left;
+                }
+
+                #footer .copyrights p{
+
+                    color: #5f687b;
+                    font-weight: 400;
+                    font-size: 15px;
+
+
+
+                }
+
+
+               
+                
+                
+
+            
+
+
+
+
+
+           
+
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media( max-width:700px)
+{
+    #getstarted h1{
+        font-size: 20px;
+    }
+
+    #getstarted h2{
+        font-size: 19px;
+    }
+
+    .content-img img{
+    height: 100%;
+        width: 80% !important;
+        size: 100%;
+    }
+
+    .content-img{
+        animation: none;
+    }
+
+    #footer .footer1{
+        padding: 80px 0px;
+        text-align: center;
+        width: 100%;
+      
+    }
+
+    
+
+}
+
+
+
